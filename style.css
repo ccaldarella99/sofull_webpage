@@ -1,0 +1,64 @@
+html, h1, h2, h3, p, a, ol, ul, li, div {
+	font-family: Arial;
+	font-size: 16px;
+	line-height:18px;
+	padding:0;
+	margin:0;
+	color: #333;
+}
+
+h1, h2 {
+
+	color: #f50;
+	margin: 5px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+.svg-logo {
+	z-index: 30;
+}
+
+.bg-tmplt {
+	background-repeat: no-repeat;
+	background-color: #ccc;
+	background-position-Y: 0%;
+	background-size: cover;
+	width: 100%;
+	z-index: -1;
+}
+
+.bg-rice {
+	background-image: url("res/rice-flour-rice-bowl.jpg");
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.bg-beans {
+	background-image: url("res/rice-and-beans.jpg");
+}
+
+.text {
+	color: #f50;
+	margin: 10% auto;
+	text-align: center;
+}
+
+.mid-section {
+	max-width: 960px;
+	text-align: justify;
+	text-align-last: left;
+	margin: 0 auto;
+	font-size: 1.2em;
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+}
+
