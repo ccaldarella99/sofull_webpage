@@ -18,8 +18,8 @@ h1 {
 
 h2 {
 	font-size: 2em;
-	padding: 35px 5px 15px 5px;
-	margin: 5px auto;
+	padding: 65px 5px 15px 5px;
+	margin: 10% auto 40px auto;
 	text-align: center;
 }
 
@@ -114,6 +114,9 @@ footer {
 }
 
 .inner-content {
+	padding-top: 45px;
+	margin: 0 auto;
+	height: 830px;
 }
 
 
@@ -126,7 +129,7 @@ footer {
 #three-piece {
 	max-width: 1003px;
 	padding: 0 10px;
-	margin: 0 auto;
+	margin: -5px auto 0 auto;
 }
 
 #select {
@@ -135,13 +138,14 @@ footer {
 	text-align:center;
 	width: 100%;
 	position: absolute;
+	height: 80px;
 }
 
 .top-menu {
 	display: inline;
 	/*margin: 5px;*/
 	width: 33.333333%;
-	padding: 1% 5%;
+	/*padding: 1% 5%;*/
 }
 
 .top-menu:hover {
@@ -149,15 +153,15 @@ footer {
 }
 
 #menu-l {
-	background-color:#a33b15;
+	/*background-color:#a33b15;*/
 }
 
 #menu-c {
-	background-color:#f7931d;
+	/*background-color:#f7931d;*/
 }
 
 #menu-r {
-	background-color:#ffd400;
+	/*background-color:#ffd400;*/
 }
 
 #pages {
@@ -170,7 +174,7 @@ footer {
 
 .page-wrapper {
 	transition: 0.75s;
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 }
 
 #left {
@@ -178,8 +182,14 @@ footer {
 	background-color:#f00;
 }
 
+#left2` {
+	width: 0;
+	background-color:#f00;
+}
+
 #center {
 	width: 100%;
+	height: 100%;
 	background-image: url("res/cracker-bg02.png");
 	/*background-color:#fff;*/
 }
@@ -194,8 +204,12 @@ footer {
 	display: none;
 }
 
+#l2-content {
+	display: none;
+}
+
 #c-content {
-	display: inline-block;
+	display: block;
 }
 
 #r-content {
@@ -203,9 +217,45 @@ footer {
 }
 
 .center-logo {
-	width: 90%;
+	/*width: 90%;*/
 	display:block;
 	margin: 5px auto;
+}
+
+.logo {
+	position: absolute;
+}
+
+#l-logo {
+	width: 10%;
+	display:block;
+	margin: 5px auto;
+	transition: 0.75s;
+	left: 10%;
+}
+
+#l2-logo {
+	width: 10%;
+	display:block;
+	margin: 5px auto;
+	transition: 0.75s;
+	left: 18%;
+}
+
+#c-logo {
+	width: 30%;
+	display:block;
+	margin: 5px auto;
+	transition: 0.75s;
+	left:35%;
+}
+
+#r-logo {
+	width: 10%;
+	display:block;
+	margin: 5px auto;
+	transition: 0.75s;
+	left: 75%;
 }
 
 
