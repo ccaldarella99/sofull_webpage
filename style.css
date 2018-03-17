@@ -18,9 +18,13 @@ h1 {
 
 h2 {
 	font-size: 2em;
+}
+
+.page-heading {
 	padding: 65px 5px 15px 5px;
 	margin: 15% auto 40px auto;
 	text-align: center;
+	animation: overlay-orange-text 1.0s;
 }
 
 #container {
@@ -112,6 +116,22 @@ footer {
 	margin: 10px auto;
 	max-width: 600px;
 	line-height: 1.4em;
+	animation: overlay-orange-text 1.5s;
+}
+
+@keyframes overlay-orange-text {
+	0% {
+		/*font-size: 0;*/
+		opacity: 0;
+	}
+	30% {
+		/*font-size: 0;*/
+		opacity: 0;
+	}
+	100% {
+		/*font-size: 1em;*/
+		opacity: 100%;
+	}
 }
 
 .inner-content {
