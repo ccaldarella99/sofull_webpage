@@ -14,27 +14,23 @@ function openMenu(item, content) {
 	for(var i=0; i<mLen; i++) {
 		if(menuList[i] == item)
 		{ itemNumber = i; }
-		//console.log("menuList: " + menuList[i] + ", " + item);
-		//console.log("Equals: " + (menuList[i] == item).toString());
 	}
-	console.log("ITEM NUMBER: " + itemNumber + ", " + item);
+
 	for(var i=0; i<mLen; i++) {
 		calcLeft = topArr[itemNumber][i];
-		console.log("Left: " + calcLeft);
 		
+		document.getElementById(logoList[i]).style.left = calcLeft + "%";
 		if(menuList[i] != item)
 		{
 			document.getElementById(menuList[i]).style.width = "0%";
 			document.getElementById(contentList[i]).style.display = "none";
 			document.getElementById(logoList[i]).style.width = "10%";
-			document.getElementById(logoList[i]).style.left = calcLeft + "%";
 		}
 		else
 		{
 			document.getElementById(item).style.width = "100%";
 			document.getElementById(content).style.display = "block";
 			document.getElementById(logoList[i]).style.width = "30%";
-			document.getElementById(logoList[i]).style.left = "35%";
 		}
 	}
 }

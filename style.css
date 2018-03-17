@@ -19,7 +19,7 @@ h1 {
 h2 {
 	font-size: 2em;
 	padding: 65px 5px 15px 5px;
-	margin: 10% auto 40px auto;
+	margin: 15% auto 40px auto;
 	text-align: center;
 }
 
@@ -108,7 +108,7 @@ footer {
 .text {
 	color: #f50;
 	font-weight: bold;
-	margin: 10px auto 10% auto;
+	margin: 10px auto;
 	max-width: 600px;
 	line-height: 1.4em;
 }
@@ -143,25 +143,11 @@ footer {
 
 .top-menu {
 	display: inline;
-	/*margin: 5px;*/
 	width: 33.333333%;
-	/*padding: 1% 5%;*/
 }
 
 .top-menu:hover {
 	cursor: pointer;
-}
-
-#menu-l {
-	/*background-color:#a33b15;*/
-}
-
-#menu-c {
-	/*background-color:#f7931d;*/
-}
-
-#menu-r {
-	/*background-color:#ffd400;*/
 }
 
 #pages {
@@ -179,12 +165,14 @@ footer {
 
 #left {
 	width: 0;
-	background-color:#f00;
+	background-image: url("res/bbq-bg03.png");
+	/*background-color:#f00;*/
 }
 
-#left2` {
+#left2 {
 	width: 0;
-	background-color:#f00;
+	background-image: url("res/den-bg03.png");
+	/*background-color:#f00;*/
 }
 
 #center {
@@ -196,7 +184,8 @@ footer {
 
 #right {
 	width: 0;
-	background-color:#00f;
+	background-image: url("res/about-bg02.png");
+	/*background-color:#fff;*/
 }
 
 
