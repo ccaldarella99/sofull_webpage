@@ -18,6 +18,9 @@ h1 {
 
 h2 {
 	font-size: 2em;
+	padding: 35px 5px 15px 5px;
+	margin: 5px auto;
+	text-align: center;
 }
 
 #container {
@@ -63,9 +66,19 @@ footer {
 	height: 140px;
 	padding-left: 5px;
 	position: absolute;
-	bottom: -140px;
+	/*bottom: -140px;*/
+	bottom: -280px;
 	left: -1px;
 	color: #fff;
+}
+
+#foot-deco {
+	position: absolute;
+	left: -1px;
+	bottom: -155px;
+	width: 100%;
+	height: 60px;
+	background-color: #333;
 }
 
 .svg-logo {
@@ -94,8 +107,105 @@ footer {
 
 .text {
 	color: #f50;
-	margin: 10% auto;
-	text-align: center;
+	font-weight: bold;
+	margin: 10px auto 10% auto;
+	max-width: 600px;
+	line-height: 1.4em;
+}
+
+.inner-content {
+}
+
+
+
+.div {
+	border: 1px solid #000;
+}
+
+
+#three-piece {
+	max-width: 1003px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+#select {
+	display: inline-flex;
+	/*margin: 5px auto;*/
+	text-align:center;
+	width: 100%;
+	position: absolute;
+}
+
+.top-menu {
+	display: inline;
+	/*margin: 5px;*/
+	width: 33.333333%;
+	padding: 1% 5%;
+}
+
+.top-menu:hover {
+	cursor: pointer;
+}
+
+#menu-l {
+	background-color:#a33b15;
+}
+
+#menu-c {
+	background-color:#f7931d;
+}
+
+#menu-r {
+	background-color:#ffd400;
+}
+
+#pages {
+	display: block;
+	padding:5px;
+}
+
+.content {
+}
+
+.page-wrapper {
+	transition: 0.75s;
+	margin-top: 30px;
+}
+
+#left {
+	width: 0;
+	background-color:#f00;
+}
+
+#center {
+	width: 100%;
+	background-image: url("res/cracker-bg02.png");
+	/*background-color:#fff;*/
+}
+
+#right {
+	width: 0;
+	background-color:#00f;
+}
+
+
+#l-content {
+	display: none;
+}
+
+#c-content {
+	display: inline-block;
+}
+
+#r-content {
+	display: none;
+}
+
+.center-logo {
+	width: 90%;
+	display:block;
+	margin: 5px auto;
 }
 
 

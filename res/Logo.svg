@@ -12,10 +12,10 @@
    version="1.1"
    id="svg64"
    xml:space="preserve"
-   width="1248"
-   height="1536"
-   viewBox="0 0 1248 1536"
-   sodipodi:docname="LOGO GOOD.ai.svg"
+   width="1134"
+   height="549"
+   viewBox="0 0 1134 549"
+   sodipodi:docname="Logo.svg"
    inkscape:version="0.92.2 (unknown)"><metadata
      id="metadata70"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -39,8 +39,8 @@
      id="namedview66"
      showgrid="false"
      inkscape:zoom="0.47786458"
-     inkscape:cx="624"
-     inkscape:cy="851.70572"
+     inkscape:cx="252.55586"
+     inkscape:cy="349.47138"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -48,8 +48,9 @@
      id="g72"
      inkscape:groupmode="layer"
      inkscape:label="LOGO GOOD"
-     transform="matrix(1.3333333,0,0,-1.3333333,0,1536)"><g
-       id="g74"><g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,549)"><g
+       id="g74"
+       transform="translate(-32.959129,-566.58312)"><g
          id="g76"
          clip-path="url(#clipPath80)"><g
            id="g82"
