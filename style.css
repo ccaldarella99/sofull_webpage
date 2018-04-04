@@ -22,7 +22,7 @@ h2 {
 
 .page-heading {
 	padding: 65px 5px 15px 5px;
-	margin: 15% auto 40px auto;
+	margin: 25px auto 40px auto;
 	text-align: center;
 	animation: overlay-orange-text 1.0s;
 }
@@ -64,6 +64,17 @@ h2 {
 	font-weight: 400;
 }
 
+header {
+	background-color: #777;
+	width: 100%;
+	height: 80px;
+	padding-left: 5px;
+	position: absolute;
+	top: 0;
+	left: -1px;
+	color: #fff;
+}
+
 footer {
 	background-color: #222;
 	width: 100%;
@@ -71,7 +82,7 @@ footer {
 	padding-left: 5px;
 	position: absolute;
 	/*bottom: -140px;*/
-	bottom: -280px;
+	bottom: -350px;
 	left: -1px;
 	color: #fff;
 }
@@ -79,7 +90,7 @@ footer {
 #foot-deco {
 	position: absolute;
 	left: -1px;
-	bottom: -155px;
+	bottom: -225px;
 	width: 100%;
 	height: 60px;
 	background-color: #333;
@@ -173,7 +184,7 @@ footer {
 
 #pages {
 	display: block;
-	padding:5px;
+	padding:0;
 }
 
 .content {
@@ -182,31 +193,41 @@ footer {
 .page-wrapper {
 	transition: 0.75s;
 	/*margin-top: 30px;*/
+	z-index: 0;
 }
 
 #left {
 	width: 0;
 	background-image: url("res/bbq-bg03.png");
 	/*background-color:#f00;*/
+	position: relative;
+	top: 85px;
 }
 
 #left2 {
 	width: 0;
 	background-image: url("res/den-bg03.png");
 	/*background-color:#f00;*/
+	position: relative;
+	top: 85px;
 }
 
 #center {
 	width: 100%;
-	height: 100%;
+	/*height: 100%;*/
 	background-image: url("res/cracker-bg02.png");
 	/*background-color:#fff;*/
+	/*height: 130%;*/
+	position: relative;
+	top: 85px;
 }
 
 #right {
 	width: 0;
 	background-image: url("res/about-bg02.png");
 	/*background-color:#fff;*/
+	position: relative;
+	top: 85px;
 }
 
 
@@ -234,6 +255,8 @@ footer {
 
 .logo {
 	position: absolute;
+	max-width: 500px;
+	z-index: 1;
 }
 
 #l-logo {
