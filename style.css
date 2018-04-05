@@ -21,7 +21,7 @@ h2 {
 }
 
 .page-heading {
-	padding: 65px 5px 15px 5px;
+	padding: 75px 5px 15px 5px;
 	margin: 25px auto 40px auto;
 	text-align: center;
 	animation: overlay-orange-text 1.0s;
@@ -255,7 +255,7 @@ footer {
 
 .logo {
 	position: absolute;
-	max-width: 500px;
+	max-width: 470px;
 	z-index: 1;
 }
 
