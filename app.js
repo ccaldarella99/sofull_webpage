@@ -12,7 +12,8 @@ function openMenu(item, content) {
 	var itemNumber = 0;
 	var mLen = menuList.length;
 	var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-	//alert(width);
+	var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+	//alert("Width: " + width + "\nHeight: " + height);
 	var subIcon = "10%";
 	var mainIcon = "30%";
 	
@@ -25,6 +26,12 @@ function openMenu(item, content) {
 		} else {
 			subIcon = "25%";
 			mainIcon = "45%";
+		}
+	} else {
+		if(height < 500)
+		{
+			//Move footer further down
+		} else if(height > 670) {
 		}
 	}
 	

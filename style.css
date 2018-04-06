@@ -334,6 +334,105 @@ footer {
 
 
 @media only screen and (min-width:880px) {
+	@media only screen and (max-height:450px) {
+		footer {
+			height: 140px;
+			bottom: -700px;
+		}
+
+		#foot-deco {
+			bottom: -575px;
+			height: 60px;
+		}
+	}	@media only screen and (max-height:530px) {
+		footer {
+			height: 140px;
+			bottom: -650px;
+		}
+
+		#foot-deco {
+			bottom: -525px;
+			height: 60px;
+		}
+	}
+	@media only screen and (max-height:385px) {
+		footer {
+			height: 140px;
+			bottom: -800px;
+		}
+
+		#foot-deco {
+			bottom: -675px;
+			height: 60px;
+		}
+	}
+
+	@media only screen and (min-height:600px) {
+		footer {
+			height: 240px;
+			bottom: -600px;
+		}
+
+		#foot-deco {
+			bottom: -375px;
+			height: 60px;
+		}
+	}
+	@media only screen and (min-height:650px) {
+		footer {
+			height: 240px;
+			bottom: -550px;
+		}
+
+		#foot-deco {
+			bottom: -325px;
+			height: 60px;
+		}
+	}
+	@media only screen and (min-height:670px) {
+		footer {
+			height: 140px;
+			bottom: -400px;
+		}
+
+		#foot-deco {
+			bottom: -275px;
+			height: 60px;
+		}
+	}
+	@media only screen and (min-height:710px) {
+		footer {
+			height: 140px;
+			bottom: -350px;
+		}
+
+		#foot-deco {
+			bottom: -225px;
+			height: 60px;
+		}
+	}
+	@media only screen and (min-height:810px) {
+		footer {
+			height: 190px;
+			bottom: -300px;
+		}
+
+		#foot-deco {
+			bottom: -125px;
+			height: 60px;
+		}
+	}
+	@media only screen and (min-height:880px) {
+		footer {
+			height: 140px;
+			bottom: -200px;
+		}
+
+		#foot-deco {
+			bottom: -75px;
+			height: 60px;
+		}
+	}
 }
 
 
