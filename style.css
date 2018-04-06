@@ -82,7 +82,7 @@ footer {
 	padding-left: 5px;
 	position: absolute;
 	/*bottom: -140px;*/
-	bottom: -400px;
+	bottom: -500px;
 	left: -1px;
 	color: #fff;
 	transition: 0.75s;
@@ -91,7 +91,7 @@ footer {
 #foot-deco {
 	position: absolute;
 	left: -1px;
-	bottom: -275px;
+	bottom: -375px;
 	width: 100%;
 	height: 60px;
 	background-color: #333;
@@ -295,5 +295,122 @@ footer {
 }
 
 
+
+
+
+
+@media only screen and (max-width:685px) {
+	
+}
+
+
+@media only screen and (min-width:700px) {
+	
+}
+
+
+@media only screen and (min-width:770px) {
+	
+}
+
+
+@media only screen and (min-width:880px) {
+}
+
+
+@media only screen and (max-width:880px) {
+	#three-piece {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+
+@media only screen and (max-width:770px) {
+	.text {
+		padding-left: 35px;
+		padding-right: 30px;
+	}
+
+	.content {
+		padding-bottom: 125px;
+	}
+
+	footer {
+		height: 140px;
+		bottom: -500px;
+	}
+
+	#foot-deco {
+		bottom: -375px;
+		height: 60px;
+	}
+
+}
+
+
+@media only screen and (max-width:500px) {
+	.content {
+		padding-bottom: 395px;
+	}
+	
+	.page-heading {
+		padding-top: 0;
+	}
+	
+	footer {
+		height: 140px;
+		bottom: -850px;
+	}
+
+	#foot-deco {
+		bottom: -725px;
+		height: 60px;
+	}
+}
+
+
+@media only screen and (max-width:425px) {
+	.content {
+		padding-bottom: 550px;
+	}
+	
+	footer {
+		height: 140px;
+		bottom: -1000px;
+	}
+
+	#foot-deco {
+		bottom: -875px;
+		height: 60px;
+	}
+}
+
+
+@media only screen and (max-width:375px) {
+	.content {
+		padding-bottom: 650px;
+	}
+	
+	footer {
+		height: 140px;
+		bottom: -1100px;
+	}
+
+	#foot-deco {
+		bottom: -975px;
+		height: 60px;
+	}
+}
+
+
+@media only screen and (max-width:700px) {
+	
+}
+
+
+@media only screen and (max-width:640px) {
+	
+}
 
 

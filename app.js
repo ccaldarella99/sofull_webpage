@@ -11,6 +11,23 @@ function openMenu(item, content) {
 	var calcLeft = 0;
 	var itemNumber = 0;
 	var mLen = menuList.length;
+	var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+	//alert(width);
+	var subIcon = "10%";
+	var mainIcon = "30%";
+	
+	if(width < 880)
+	{
+		if(width > 700)
+		{
+			subIcon = "20%";
+			mainIcon = "40%";
+		} else {
+			subIcon = "25%";
+			mainIcon = "45%";
+		}
+	}
+	
 	for(var i=0; i<mLen; i++) {
 		if(menuList[i] == item)
 		{ itemNumber = i; }
