@@ -86,6 +86,7 @@ footer {
 	left: -1px;
 	color: #fff;
 	transition: 0.75s;
+	margin: 0 auto;
 }
 
 #foot-deco {
@@ -96,6 +97,24 @@ footer {
 	height: 60px;
 	background-color: #333;
 	transition: 0.75s;
+}
+
+#footer-content {
+	margin: 20px auto;
+	max-width: 1000px;
+	text-align: center;
+	color: #fff;
+	font-size: 2em;
+}
+
+.icons {
+	padding: 10px 30px;
+	transition: 0.5s;
+}
+
+.icons:hover {
+	cursor: pointer;
+	color: #fa5;
 }
 
 .svg-logo {
