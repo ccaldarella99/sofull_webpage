@@ -14,18 +14,18 @@ function openMenu(item, content) {
 	var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 	var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 	//alert("Width: " + width + "\nHeight: " + height);
-	var subIcon = "10%";
-	var mainIcon = "30%";
+	var subIcon = 10;
+	var mainIcon = 30;
 	
 	if(width < 880)
 	{
 		if(width > 700)
 		{
-			subIcon = "20%";
-			mainIcon = "40%";
+			//subIcon = 20;
+			//mainIcon = 40;
 		} else {
-			subIcon = "25%";
-			mainIcon = "45%";
+			//subIcon = 25;
+			//mainIcon = 45;
 		}
 	} else {
 		if(height < 500)
@@ -42,19 +42,26 @@ function openMenu(item, content) {
 
 	for(var i=0; i<mLen; i++) {
 		calcLeft = topArr[itemNumber][i];
+		if(width >= 2050) {
+			calcLeft += (width / 1000) * 2;
+		} else if(width >= 1880) {
+			calcLeft += (width / 1000) + 1;
+		} else if(width >= 1620) {
+			calcLeft += (width / 1000);
+		}
 		
 		document.getElementById(logoList[i]).style.left = calcLeft + "%";
 		if(menuList[i] != item)
 		{
 			document.getElementById(menuList[i]).style.width = "0%";
 			document.getElementById(contentList[i]).style.display = "none";
-			document.getElementById(logoList[i]).style.width = "10%";
+			document.getElementById(logoList[i]).style.width = subIcon + "%";
 		}
 		else
 		{
 			document.getElementById(item).style.width = "100%";
 			document.getElementById(content).style.display = "block";
-			document.getElementById(logoList[i]).style.width = "30%";
+			document.getElementById(logoList[i]).style.width = mainIcon + "%";
 		}
 	}
 }

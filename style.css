@@ -316,22 +316,59 @@ footer {
 
 
 
+/* --BEGIN LOGO REPOSITIONING-- */
 
-
-@media only screen and (max-width:685px) {
-	
+@media only screen and (min-width:1620px) {
+	#l-logo {
+		left: 11.8%;
+	}
+	#l2-logo {
+		left: 19.8%;
+	}
+	#c-logo {
+		left: 36.8%;
+	}
+	#r-logo {
+		left: 76.8%;
+	}
 }
 
 
-@media only screen and (min-width:700px) {
-	
+@media only screen and (min-width:1880px) {
+	#l-logo {
+		left: 12.9%;
+	}
+	#l2-logo {
+		left: 20.9%;
+	}
+	#c-logo {
+		left: 37.9%;
+	}
+	#r-logo {
+		left: 77.9%;
+	}
 }
 
 
-@media only screen and (min-width:770px) {
-	
+@media only screen and (min-width:2050px) {
+	#l-logo {
+		left: 14.5%;
+	}
+	#l2-logo {
+		left: 22.5%;
+	}
+	#c-logo {
+		left: 39.5%;
+	}
+	#r-logo {
+		left: 79.5%;
+	}
 }
 
+/* --END LOGO REPOSITIONING-- */
+
+
+/* --BEGIN FOOTER REPOSITIONING FOR LARGE SCREENS-- */
 
 @media only screen and (min-width:880px) {
 	@media only screen and (max-height:450px) {
@@ -342,7 +379,6 @@ footer {
 
 		#foot-deco {
 			bottom: -575px;
-			height: 60px;
 		}
 	}	@media only screen and (max-height:530px) {
 		footer {
@@ -352,7 +388,6 @@ footer {
 
 		#foot-deco {
 			bottom: -525px;
-			height: 60px;
 		}
 	}
 	@media only screen and (max-height:385px) {
@@ -363,7 +398,6 @@ footer {
 
 		#foot-deco {
 			bottom: -675px;
-			height: 60px;
 		}
 	}
 
@@ -375,7 +409,6 @@ footer {
 
 		#foot-deco {
 			bottom: -375px;
-			height: 60px;
 		}
 	}
 	@media only screen and (min-height:650px) {
@@ -386,7 +419,6 @@ footer {
 
 		#foot-deco {
 			bottom: -325px;
-			height: 60px;
 		}
 	}
 	@media only screen and (min-height:670px) {
@@ -397,7 +429,6 @@ footer {
 
 		#foot-deco {
 			bottom: -275px;
-			height: 60px;
 		}
 	}
 	@media only screen and (min-height:710px) {
@@ -408,7 +439,6 @@ footer {
 
 		#foot-deco {
 			bottom: -225px;
-			height: 60px;
 		}
 	}
 	@media only screen and (min-height:810px) {
@@ -419,7 +449,6 @@ footer {
 
 		#foot-deco {
 			bottom: -125px;
-			height: 60px;
 		}
 	}
 	@media only screen and (min-height:880px) {
@@ -430,18 +459,95 @@ footer {
 
 		#foot-deco {
 			bottom: -75px;
-			height: 60px;
 		}
 	}
 }
 
+/* --END FOOTER REPOSITIONING FOR LARGE SCREENS-- */
+
+
+/* --BEGIN FOOTER REPOSITIONING FOR REGULAR SCREENS-- */
 
 @media only screen and (max-width:880px) {
 	#three-piece {
 		padding-left: 0;
 		padding-right: 0;
 	}
+
+	@media only screen and (max-height:920px) {
+		.content {
+			padding-bottom: 475px;
+		}
+		footer {
+			height: 140px;
+			bottom: -800px;
+		}
+
+		#foot-deco {
+			bottom: -675px;
+		}
+	}
+	
+	@media only screen and (max-height:350px) {
+		footer {
+			height: 140px;
+			bottom: -800px;
+		}
+
+		#foot-deco {
+			bottom: -675px;
+		}
+	}
+	
+	@media only screen and (min-height:340px) {
+		footer {
+			height: 190px;
+			bottom: -800px;
+		}
+
+		#foot-deco {
+			bottom: -625px;
+		}
+	}
+	@media only screen and (min-height: 410px) {
+		.content {
+			padding-bottom: 150px;
+		}
+		footer {
+			height: 190px;
+			bottom: -800px;
+		}
+		#foot-deco {
+			bottom: -625px;
+		}
+	}
+
+	@media only screen and (min-height: 820px) {
+		.content {
+			padding-bottom: 500px;
+		}
+		footer {
+			height: 140px;
+			bottom: -750px;
+		}
+		#foot-deco {
+			bottom: -625px;
+		}
+	}
+
+	/*@media only screen and (min-height:600px) {
+		footer {
+			height: 240px;
+			bottom: -600px;
+		}
+
+		#foot-deco {
+			bottom: -375px;
+		}
+	}*/
 }
+
+/* --END FOOTER REPOSITIONING FOR REGULAR SCREENS-- */
 
 
 @media only screen and (max-width:770px) {
@@ -458,11 +564,73 @@ footer {
 		height: 140px;
 		bottom: -600px;
 	}
-
 	#foot-deco {
 		bottom: -475px;
-		height: 60px;
 	}
+	
+	@media only screen and (max-height:575px) {
+		@media only screen and (min-height:390px) {
+			.content {
+				padding-bottom: 175px;
+			}
+		}
+		footer {
+			height: 140px;
+			bottom: -700px;
+		}
+		#foot-deco {
+			bottom: -575px;
+		}
+		@media only screen and (max-height:400px) {
+			footer {
+				height: 140px;
+				bottom: -800px;
+			}
+			#foot-deco {
+				bottom: -675px;
+			}
+		}
+	}
+
+/*	@media only screen and (min-height:900px) {
+		.content {
+			padding-bottom: 75px;
+		}
+		footer {
+			height: 140px;
+			bottom: -200px;
+		}
+		#foot-deco {
+			bottom: -75px;
+		}
+	}
+	@media only screen and (min-height:950px) {
+		footer {
+			height: 140px;
+			bottom: -150px;
+		}
+		#foot-deco {
+			bottom: -25px;
+		}
+	}
+	@media only screen and (min-height:1000px) {
+		footer {
+			height: 140px;
+			bottom: -100px;
+		}
+		#foot-deco {
+			bottom: 25px;
+		}
+	}
+	@media only screen and (min-height:1080px) {
+		footer {
+			height: 140px;
+			bottom: -25px;
+		}
+		#foot-deco {
+			bottom: 100px;
+		}
+	}*/
 }
 
 
@@ -572,13 +740,50 @@ footer {
 }
 
 
-@media only screen and (max-width:700px) {
-	
+
+
+/* --BEGIN FOOTER REPOSITIONING FOR VERY LARGE SCREENS-- */
+
+
+@media only screen and (min-height:900px) {
+	.content {
+		padding-bottom: 75px;
+	}
+	footer {
+		height: 140px;
+		bottom: -200px;
+	}
+	#foot-deco {
+		bottom: -75px;
+	}
+}
+@media only screen and (min-height:950px) {
+	footer {
+		height: 140px;
+		bottom: -150px;
+	}
+	#foot-deco {
+		bottom: -25px;
+	}
+}
+@media only screen and (min-height:1000px) {
+	footer {
+		height: 140px;
+		bottom: -100px;
+	}
+	#foot-deco {
+		bottom: 25px;
+	}
+}
+@media only screen and (min-height:1080px) {
+	footer {
+		height: 140px;
+		bottom: -25px;
+	}
+	#foot-deco {
+		bottom: 100px;
+	}
 }
 
-
-@media only screen and (max-width:640px) {
-	
-}
-
+/* --END FOOTER REPOSITIONING FOR LARGE SCREENS-- */
 
