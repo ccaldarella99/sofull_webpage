@@ -210,6 +210,7 @@ footer {
 
 .content {
 	padding-bottom: 85px;
+	transition: 0.75s;
 }
 
 .page-wrapper {
@@ -522,6 +523,24 @@ footer {
 		}
 	}
 
+	@media only screen and (min-height: 480px) {
+		.content {
+			padding-bottom: 365px;
+		}
+	}
+
+	@media only screen and (min-height: 600px) {
+		.content {
+			padding-bottom: 485px;
+		}
+		footer {
+			height: 165px;
+			bottom: -775px;
+		}
+		#foot-deco {
+			bottom: -625px;
+		}	}
+
 	@media only screen and (min-height: 820px) {
 		.content {
 			padding-bottom: 500px;
@@ -557,7 +576,7 @@ footer {
 	}
 
 	.content {
-		padding-bottom: 275px;
+		padding-bottom: 255px;
 	}
 
 	footer {
@@ -568,7 +587,7 @@ footer {
 		bottom: -475px;
 	}
 	
-	@media only screen and (max-height:575px) {
+	@media only screen and (max-height:565px) {
 		@media only screen and (min-height:390px) {
 			.content {
 				padding-bottom: 175px;
@@ -745,6 +764,18 @@ footer {
 /* --BEGIN FOOTER REPOSITIONING FOR VERY LARGE SCREENS-- */
 
 
+@media only screen and (min-height:735px) {
+	.content {
+		padding-bottom: 275px;
+	}
+	footer {
+		height: 140px;
+		bottom: -450px;
+	}
+	#foot-deco {
+		bottom: -325px;
+	}
+}
 @media only screen and (min-height:900px) {
 	.content {
 		padding-bottom: 75px;
@@ -784,6 +815,37 @@ footer {
 		bottom: 100px;
 	}
 }
+@media only screen and (min-height:1125px) {
+	.content {
+		padding-bottom: 325px;
+	}
+	footer {
+		height: 240px;
+		bottom: -125px;
+	}
+	#foot-deco {
+		bottom: 100px;
+	}
+}
+@media only screen and (min-height:1350px) {
+	.content {
+		padding-bottom: 525px;
+	}
+	footer {
+		height: 240px;
+		bottom: -125px;
+	}
+	#foot-deco {
+		bottom: 100px;
+	}
+}
 
 /* --END FOOTER REPOSITIONING FOR LARGE SCREENS-- */
+
+
+/* -- Work on(WxH): White: 411x731, 375x667, Cuts off:  375x812 -- */ 
+/* -- Width Range: 320 - 414 -- */
+/* -- Height Range: 568 - 823 -- */
+
+/* 310x630, extend content padding and adjust footer /*
 
